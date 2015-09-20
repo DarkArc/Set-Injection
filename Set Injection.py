@@ -24,7 +24,7 @@ sourceFile = sys.argv[1]
 
 targetFile = sourceFile + ".txt"
 
-seperateFiles = False
+separateFiles = False
 
 gen = [
     ['a', 'dog'],
@@ -38,10 +38,10 @@ input.close()
 
 for i in range(0, len(gen)):
 
-    if seperateFiles:
+    if separateFiles:
         targetFile = sourceFile + "." + str(i) + ".txt"
 
-    output = open(targetFile, 'w' if seperateFiles else 'a')
+    output = open(targetFile, 'w' if separateFiles else 'a')
 
     outText = inputText
 
