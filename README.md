@@ -2,6 +2,23 @@
 
 This project is a very simple script for quickly generating text, given a collection of inputs.
 
+# Usage
+
+This script requires either the python 2, or python 3 runtime.
+
+To instruct the script to execute its rules on a particular file, simply call the script from the command line with the input file as an argument.
+
+## Windows
+````
+"Set Injection.py" <target file>
+````
+**Diclaimer:** This syntax -- and the script in general -- has not been tested on Windows.
+
+## Linux
+````
+python Set\ Injection.py <target file>
+````
+
 # Configuration
 
 There are two variables in the script which are of interest:
